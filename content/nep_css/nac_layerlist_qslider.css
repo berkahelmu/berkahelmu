@@ -1,0 +1,51 @@
+﻿/* nac_layerlist_qslider.css */
+
+.nac_layerlist_qslider {
+    padding:5px;
+    position:relative;
+    box-sizing:border-box;
+    -webkit-writing-mode:horizontal-tb !important;
+    writing-mode:horizontal-tb !important;
+    -webkit-column-break-inside:avoid;
+    page-break-inside:avoid;
+    break-inside:avoid;
+}
+
+.nac_layerlist_qslider * {
+    box-sizing:border-box;
+}
+
+.nac_layerlist_qslider > .nac_content_container {
+    width:100%;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+}
+
+.nac_layerlist_qslider > .nac_content_container > .nac_item {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    position:relative;
+}
+
+.nac_layerlist_qslider > .nac_content_container > .nac_item > div {
+    max-width:100%;
+    max-height:100%;
+}
+
+.nac_layerlist_qslider > .nac_to_next:active,
+.nac_layerlist_qslider > .nac_to_back:active,
+.nac_layerlist_qslider > .nac_to_result:active,
+.nac_layerlist_qslider > .nac_reset:active,
+.nac_layerlist_qslider > .nac_retry_all.nac_enabled:active,
+.nac_layerlist_qslider .nac_retry:active {
+    transform:translateY(1px);
+}
+
+.nac_layerlist_qslider > .nac_retry_all.nac_enabled {
+    opacity:1;
+}
+.nac_layerlist_qslider > .nac_retry_all {
+    opacity:0.5;
+}

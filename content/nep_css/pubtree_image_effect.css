@@ -1,0 +1,64 @@
+﻿/*white frame*/
+.pubtree_image_effect_01 { border: 1px solid #ccc; padding: 5px; background: #fff; }
+/*Dot border line*/
+.pubtree_image_effect_02 { border: 5px dotted #ccc;  }
+/*Dashed border line*/
+.pubtree_image_effect_03 { border: 5px dashed #ccc; }
+/*Solid border line*/
+.pubtree_image_effect_04 { border: 5px solid #ccc;  }
+/*inset border line*/
+.pubtree_image_effect_05 { border: 5px inset #ccc; }
+/*outset border line*/
+.pubtree_image_effect_06 { border: 5px outset #ccc; }
+/*Transparency*/
+.pubtree_image_effect_08 {
+	opacity:0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+/*Shadow effect*/
+.pubtree_image_effect_10 { box-shadow:1px 2px 9px 3px rgb(182, 182, 182); }
+
+/*radius*/
+.pubtree_image_effect_11 {
+	-webkit-border-radius: 20%;
+	-moz-border-radius: 20%;
+	border-radius: 20%;
+}
+
+/*radius+shadow*/
+.pubtree_image_effect_12 {
+	-webkit-border-radius: 20%;
+	-moz-border-radius: 20%;
+	border-radius: 20%;
+	box-shadow:1px 2px 9px 3px rgb(182, 182, 182);
+}
+
+/*Circular effect*/
+.pubtree_image_effect_13 {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+/*Circular effect+shadow*/
+.pubtree_image_effect_14 { 
+	border-radius: 50%; 
+	box-shadow: 1px 2px 9px 3px rgb(182, 182, 182);
+}
+
+/*bilateral symmetry*/
+.pubtree_image_effect_15 { 
+	-webkit-transform: rotateY(180deg); 
+	filter:fliph;/* IE */ 
+}
+
+/*Flip vertical*/
+.pubtree_image_effect_16 { 
+	-webkit-transform: rotateX(180deg); 
+	filter: flipv;/* IE */ 
+}
+
+/*Reflex effect*/
+.pubtree_image_effect_17 {
+    -webkit-box-reflect:below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white));
+}

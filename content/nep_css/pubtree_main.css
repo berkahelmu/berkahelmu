@@ -1,0 +1,35 @@
+.pubtree_horizontal_writing { writing-mode:horizontal-tb; writing-mode: lr-tb; -epub-writing-mode:horizontal-tb; -webkit-writing-mode:horizontal-tb; -moz-writing-mode:horizontal-tb; -o-writing-mode:horizontal-tb; -ms-writing-mode:horizontal-tb; }
+.pubtree_vertical_writing { writing-mode:vertical-rl; writing-mode: tb-rl; -epub-writing-mode:vertical-rl; -webkit-writing-mode:vertical-rl; -moz-writing-mode:vertical-rl; -o-writing-mode:vertical-rl; -ms-writing-mode:vertical-rl; }
+.pubtree_textbox { white-space: normal; text-overflow: ellipsis; word-wrap: break-word; text-align: start; box-sizing:border-box; }
+.pubtree_textbox p { margin-top: 0px; margin-bottom: 0px; } 
+.pubtree_multistage_two { -webkit-column-count:2; -webkit-column-gap: 30px; -webkit-column-rule: 1px solid #C0C0C0; column-count:2; column-gap: 30px; column-rule: 1px solid #C0C0C0; }
+.pubtree_multistage_three { -webkit-column-count:3; -webkit-column-gap: 30px; -webkit-column-rule: 1px solid #C0C0C0; column-count:3; column-gap: 30px; column-rule: 1px solid #C0C0C0; }
+.pubtree_table { box-sizing:border-box; border: 1px solid #7F7F7F; border-spacing: 1px; }
+.pubtree_table td { border: 1px solid #A5A5A5; margin:0; padding:3px; }
+.pubtree_table td p { margin:0; }
+.pubtree_table th { border: 1px solid #A5A5A5; margin:0; padding:3px; }
+.pubtree_table th p { margin:0; }
+.pubtree_combine_horizontal { text-combine-horizontal:all;	text-combine:horizontal; -epub-text-combine:horizontal; -webkit-text-combine:horizontal; -moz-text-combine:horizontal; -o-text-combine:horizontal;	-ms-text-combine:horizontal; }
+.pubtree_emphasis_style_01 { text-emphasis-style:open dot; -epub-text-emphasis-style:open dot; -webkit-text-emphasis-style:open dot; -moz-text-emphasis-style:open dot; -o-text-emphasis-style:open dot; -ms-text-emphasis-style:open dot; }
+.pubtree_emphasis_style_02 { text-emphasis-style:open circle; -epub-text-emphasis-style:open circle; -webkit-text-emphasis-style:open circle; -moz-text-emphasis-style:open circle; -o-text-emphasis-style:open circle; -ms-text-emphasis-style:open circle; }
+.pubtree_emphasis_style_03 { text-emphasis-style:open double-circle; -epub-text-emphasis-style:open double-circle; -webkit-text-emphasis-style:open double-circle; -moz-text-emphasis-style:open double-circle; -o-text-emphasis-style:open double-circle; -ms-text-emphasis-style:open double-circle; }
+.pubtree_emphasis_style_04 { text-emphasis-style:open triangle; -epub-text-emphasis-style:open triangle; -webkit-text-emphasis-style:open triangle; -moz-text-emphasis-style:open triangle; -o-text-emphasis-style:open triangle; -ms-text-emphasis-style:open triangle; }
+.pubtree_emphasis_style_05 { text-emphasis-style:open sesame; -epub-text-emphasis-style:open sesame; -webkit-text-emphasis-style:open sesame; -moz-text-emphasis-style:open sesame; -o-text-emphasis-style:open sesame; -ms-text-emphasis-style:open sesame; }
+.pubtree_emphasis_style_06 { text-emphasis-style:filled dot; -epub-text-emphasis-style:filled dot; -webkit-text-emphasis-style:filled dot; -moz-text-emphasis-style:filled dot; -o-text-emphasis-style:filled dot; -ms-text-emphasis-style:filled dot; }
+.pubtree_emphasis_style_07 { text-emphasis-style:filled circle; -epub-text-emphasis-style:filled circle; -webkit-text-emphasis-style:filled circle; -moz-text-emphasis-style:filled circle; -o-text-emphasis-style:filled circle; -ms-text-emphasis-style:filled circle; }
+.pubtree_emphasis_style_08 { text-emphasis-style:filled double-circle; -epub-text-emphasis-style:filled double-circle; -webkit-text-emphasis-style:filled double-circle; -moz-text-emphasis-style:filled double-circle; -o-text-emphasis-style:filled double-circle; -ms-text-emphasis-style:filled double-circle; }
+.pubtree_emphasis_style_09 { text-emphasis-style:filled triangle; -epub-text-emphasis-style:filled triangle; -webkit-text-emphasis-style:filled triangle; -moz-text-emphasis-style:filled triangle; -o-text-emphasis-style:filled triangle; -ms-text-emphasis-style:filled triangle; }
+.pubtree_emphasis_style_10 { text-emphasis-style:filled sesame; -epub-text-emphasis-style:filled sesame; -webkit-text-emphasis-style:filled sesame; -moz-text-emphasis-style:filled sesame; -o-text-emphasis-style:filled sesame; -ms-text-emphasis-style:filled sesame; }
+* { word-wrap:break-word; }
+body > p:first-child { margin-top: 0px; }
+body.pubtree_vertical_writing > p { margin-top:0px;}
+namoplaceholder { opacity: 0.5; }
+.pubtree_href { cursor:pointer; }
+.pubtree_popup_layer { cursor:pointer; text-decoration:underline; color: rgb(0, 0, 255);}
+.pubtree_autofit { padding:5px;display:inline-block; min-width:10px;}
+.pubtree_autofit * { max-width:100%; }
+p { min-height: 20px; }
+.Pubtree-epub-media-overlay-active { background-color: #abc; }
+math { text-indent: initial; }
+ol, ul { -webkit-padding-start: 2.5em; }
+ol ol, ol ul, ul ol, ul ul { -webkit-padding-start: 1em; }

@@ -1,0 +1,152 @@
+﻿/*default*/
+.pubtree_text_effect_00 {
+ /*          background: ; */
+           /*color:#000000;*/                      
+           text-shadow:none;
+           font-weight:normal;           
+           -webkit-text-stroke:0 #000000;
+           -webkit-text-fill-color:initial;
+           /*-webkit-text-fill-color:#000000;*/
+           opacity:1;
+           filter:alpha(opacity=100);
+}
+
+/*light border line*/
+.pubtree_text_effect_01 {
+	-webkit-text-stroke: 0.02em;
+	-webkit-text-fill-color: #FFFFFF;
+}
+
+/*Dark border line*/
+.pubtree_text_effect_02 {
+	-webkit-text-stroke: 0.05em;
+	-webkit-text-fill-color: #FFFFFF;
+}
+
+/*Shadow*/
+.pubtree_text_effect_03 {
+	text-shadow: 0em 0.1em 0.2em;
+}
+
+/*Solid*/
+.pubtree_text_effect_04 {  
+	/*color:#d9d9d9;*/
+	font-weight: bold;  
+	text-shadow: 1px 1px #c4c4c4,  
+	2px 2px #808080,  
+	3px 3px #808080,  
+	4px 4px #808080;
+}
+
+/*Multiple Solid*/
+.pubtree_text_effect_05 {
+	text-shadow: 0 0.1em 0 #ccc,
+               0 0.2em 0 #c9c9c9,
+               0 0.3em 0 #bbb,
+               0 0.4em 0 #b9b9b9,
+               0 0.5em 0 #aaa,
+               0 0.6em 0.1em rgba(0,0,0,.1),
+               0 0 0.5em rgba(0,0,0,.1),
+               0 0.1em 0.3em rgba(0,0,0,.3),
+               0 0.3em 0.5em rgba(0,0,0,.2),
+               0 0.5em 1em rgba(0,0,0,.25),
+               0 1em 1em rgba(0,0,0,.2),
+               0 2em 2em rgba(0,0,0,.15);
+}
+
+/*raised*/
+.pubtree_text_effect_06 {
+	text-shadow: 0 0 , 0.04em 0.04em #666;
+	/* 0px -2px 0px rgb(221, 221, 221), 0px 2px 3px #666;
+	color: rgb(173, 173, 173);*/
+}
+
+/*Intaglio*/
+.pubtree_text_effect_07 {
+	text-shadow: 0 0, -0.04em -0.04em #666;
+	/*0px -2px 0px rgb(221, 221, 221), 0px 2px 3px #666;
+	color: rgb(255, 255, 255);*/
+}
+
+/*left background emphasize*/
+.pubtree_text_effect_08 {
+	background: -webkit-radial-gradient(1em 1em,circle cover,#cccccc 1%,white 90%);
+}
+
+/*right background emphasize*/
+.pubtree_text_effect_09 {
+	background: -webkit-radial-gradient(1em 1em,circle cover,white 1%,#cccccc 99%);
+}
+
+/*top background emphasize*/
+.pubtree_text_effect_10 {
+	background: -webkit-linear-gradient(top,#cccccc,white);
+}
+
+/*bottom background emphasize*/
+.pubtree_text_effect_11 {
+	background: -webkit-linear-gradient(top,white,#cccccc);
+}
+
+/*translucent*/
+.pubtree_text_effect_12 {
+	opacity:0.3;
+	filter:alpha(opacity=30); /* For IE8 and earlier */
+}
+
+/*cloudy*/
+.pubtree_text_effect_13 {
+	/*background:#ccc;
+	color: transparent;
+	text-shadow: #fff 0 0 10px;*/
+	background: rgb(255, 255, 255);
+	color: transparent;
+	text-shadow: rgb(172, 172, 172) 0 0 3px;
+}
+
+/*left-top light Embossing*/
+.pubtree_text_effect_14 {
+	background:#ccc;
+	/*color:#ccc;*/
+	text-shadow: -1px -1px white, 1px 1px #333;
+}
+
+/*right-bottom light Embossing*/
+.pubtree_text_effect_15 {
+	background:#ccc;
+	/*color:#ddd;*/
+	text-shadow: 1px 1px white, -1px -1px #444;
+}
+
+/*Solid reverse*/
+.pubtree_text_effect_16 {
+	background:#666;
+	/*color: #000;*/
+	text-shadow: 0px 1px 1px #fff;
+}
+
+/*back light dark change*/
+.pubtree_text_effect_17 {
+	/*color:#FFFFFF ;*/
+	text-shadow:0 0 20px yellow;
+	background:black;
+}
+
+/*Stroke*/
+.pubtree_text_effect_18 {
+	/*color: rgb(255, 255, 255);*/
+	font-weight: bold;
+	text-shadow: 0.06em 0.06em 0em rgb(54, 54, 54), -0.06em -0.06em 0em rgb(102, 102, 102);
+}
+
+/*Neon*/
+.pubtree_text_effect_19 {
+	color: #ffae00; 
+	text-shadow: 0 0 0.1em, 0 0 2em , 0 0 3em , 0 0 2em , 0 0 4em;
+}
+
+/*Rotation*/
+.pubtree_text_effect_combine {
+    text-combine : horizontal ; 
+    -webkit-text-combine : horizontal;
+}
